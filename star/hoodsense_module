@@ -63,7 +63,7 @@ local circle = Drawingnew("Circle")
 circle.Transparency = Hoodsense_Silent.FOVTransparency
 circle.Thickness =  Hoodsense_Silent.FOVThickness
 circle.Color = Hoodsense_Silent.FOVColour  
-circle.Filled = Hoodsense_Silent.FOVFilled
+circle.Filled = flash.Fov.FOVFilled
 Hoodsense_Silent.FOVCircle = circle
 
 function Hoodsense_Silent.UpdateFOV()
